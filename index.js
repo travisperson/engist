@@ -27,7 +27,7 @@ var template = [
 	"",
 	"---",
 	"{{html_url}}  ",
-	"Created on `{{created_at}}"
+	"Created on `{{created_at}}`"
 ].join('\n');
 
 if(!fs.existsSync(process.env['HOME'] + '/.config/engist')) {
